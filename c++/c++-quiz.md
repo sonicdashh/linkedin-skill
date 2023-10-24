@@ -2502,3 +2502,17 @@ class my_class{
 - [x] `constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions.
 - [ ] It is a keyword used to create asynchronous functions.
 
+#### Q155. Explain the use of the `std::move` function in C++.
+- ref(https://en.cppreference.com/w/cpp/utility/move#:~:text=std%3A%3Amove%20is%20used,to%20an%20rvalue%20reference%20type.)
+
+- [ ] `std::move` is used to copy objects from one location in memory to another.
+- [ ] It's a function for swapping the values of two variables.
+- [ ] `std::move` is used for creating new objects in C++.
+- [x] `std::move` is used to cast an object to an rvalue, allowing it to be moved rather than copied, improving performance in some cases.
+
+#### Q156. What is RAII (Resource Acquisition Is Initialization) in C++?
+
+- [ ] RAII is a technique for managing user interface resources in C++.
+- [ ] It is a design pattern for handling exceptions in C++.
+- [ ] RAII stands for "Reallocate and Initialize Instances" in C++.
+- [x] RAII is a programming idiom where resource management (e.g., memory allocation and deallocation) is tied to the lifetime of an object, ensuring proper resource cleanup when the object goes out of scope.
